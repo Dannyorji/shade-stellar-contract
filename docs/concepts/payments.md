@@ -117,7 +117,7 @@ sequenceDiagram
 | `Invoice` | [`contracts/shade/src/types.rs:396-413`](../../contracts/shade/src/types.rs#L396-L413) | The payable record: amount, token, status, `amount_paid`, `payer`. |
 | `InvoiceStatus` | [`contracts/shade/src/types.rs:355-366`](../../contracts/shade/src/types.rs#L355-L366) | `Pending`, `Paid`, `Cancelled`, `Refunded`, `PartiallyRefunded`, `PartiallyPaid`, `Draft`. |
 | `PlatformFeeSplit` | [`contracts/shade/src/types.rs:656-663`](../../contracts/shade/src/types.rs#L656-L663) | The result of a fee computation: `gross_amount`, `platform_fee`, `merchant_amount`, `fee_bps_applied`. |
-| `DataKey::Invoice(u64)` | [`contracts/shade/src/types.rs`](../../contracts/shade/src/types.rs) | Persistent storage of each invoice, keyed by invoice ID. |
+| `DataKey::Invoice(u64)` | [`contracts/shade/src/types.rs:64`](../../contracts/shade/src/types.rs#L64) | Persistent storage of each invoice, keyed by invoice ID. |
 
 ## Relevant functions
 
